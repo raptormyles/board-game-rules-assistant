@@ -215,4 +215,5 @@ Myles owns roughly 100 games in total; the remaining ~95 have not yet had rulebo
 
 - **Public:** https://github.com/raptormyles/board-game-rules-assistant — code, this PRD, schema/design docs. This is the portfolio-visible piece.
 - **Private:** https://github.com/raptormyles/board-game-rules-assistant-data — generated per-game rulebook Markdown + `games_index.md` (kept private due to the copyrighted-content risk in §10).
-- Raw rulebook photos remain local-only in the iCloud "Boardgame Rulebooks" folder, as sibling directories to these two repo folders — never committed to either repo.
+- Both repos live locally at `~/Projects/board-game-rules-assistant` and `~/Projects/board-game-rules-assistant-data` (moved off iCloud sync on 2026-09-01 after iCloud's sync layer caused stale git lock files there).
+- Raw rulebook photos remain local-only in the iCloud "Boardgame Rulebooks" folder — a separate location now, never committed to either repo.
