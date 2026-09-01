@@ -1,7 +1,7 @@
 # Product Requirements Document: Board Game Rules Assistant
 
 **Author:** Myles
-**Status:** Draft v4
+**Status:** Draft v5
 **Last updated:** 2026-09-01
 
 ---
@@ -210,3 +210,9 @@ Myles owns roughly 100 games in total; the remaining ~95 have not yet had rulebo
 | Flagged constraint | Copyright/IP noted as an open risk for any future public-facing direction |
 | Stack | Python |
 | Involvement model | Myles writes the code; Claude guides and reviews |
+
+## 17. Repositories
+
+- **Public:** https://github.com/raptormyles/board-game-rules-assistant — code, this PRD, schema/design docs. This is the portfolio-visible piece.
+- **Private:** https://github.com/raptormyles/board-game-rules-assistant-data — generated per-game rulebook Markdown + `games_index.md` (kept private due to the copyrighted-content risk in §10).
+- Raw rulebook photos remain local-only in the iCloud "Boardgame Rulebooks" folder, as sibling directories to these two repo folders — never committed to either repo.
