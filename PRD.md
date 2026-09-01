@@ -161,7 +161,7 @@ These were the open Phase 1 questions raised because of the ~100-game scaling am
 | Tapestry | 12 | Deferred |
 | Trekking the National Parks | 10 | Deferred |
 | Zooloretto | 7 | Deferred |
-| Flamecraft | 1 | Deferred; existing image is a screen capture, not a rulebook photo — will likely need to be replaced |
+| Flamecraft | 21 | Deferred; a fully page-numbered rulebook (FrontCover, 19 numbered pages, BackCover) |
 
 Myles owns roughly 100 games in total; the remaining ~95 have not yet had rulebook photos taken. Expanding source material beyond the 5 folders above is a Phase 1 scaling activity, not required for the two-game pilot.
 
