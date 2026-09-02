@@ -1,4 +1,6 @@
-# Rulebook Data Schema (v1)
+# Rulebook Data Schema
+
+**Current version: `0.1`** — see Version History at the bottom of this document.
 
 This document is the formal definition of the per-game Markdown schema described in `PRD.md` (§7, §8, §12). It's the spec the pipeline (and, for now, manual test runs) writes to. A blank, fillable copy of this structure lives in `docs/game-template.md`.
 
@@ -26,7 +28,7 @@ mechanisms: [string]       # required — tags describing the game's mechanisms 
 interaction_model: string  # required — one of: competitive | cooperative | team
 source_photos: [string]    # required — every source photo filename used for this game, in reading order
 date_processed: date       # required — ISO 8601, e.g. 2026-09-02
-schema_version: string     # required — schema version this file conforms to, e.g. "1.0"
+schema_version: string     # required — schema version this file conforms to (current: "0.1"). See Version History below.
 ---
 ```
 
@@ -88,6 +90,14 @@ A table mapping each of sections 1–10 to the source photo(s) it was drawn from
 ```
 
 ---
+
+## Version History
+
+| Version | Date | Changes |
+|---|---|---|
+| 0.1 | 2026-09-02 | Initial schema: frontmatter spec + 11 fixed sections, formalized from PRD §7/§8/§12 and validated against Ticket to Ride as a first test conversion. |
+
+Schema versions stay below `1.0` while the section set and frontmatter fields are still being validated against real rulebooks (per PRD §10's open question on generalization). Each time the schema changes, add a new row here — that way every existing `games/<slug>.md` file's `schema_version` field points to a documented revision, and a future schema change doesn't silently invalidate older files without a record of what changed.
 
 ## Known gaps (not solved by this schema)
 

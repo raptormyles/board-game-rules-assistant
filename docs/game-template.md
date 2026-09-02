@@ -9,7 +9,7 @@ mechanisms: []
 interaction_model: 
 source_photos: []
 date_processed: 
-schema_version: "1.0"
+schema_version: "0.1"
 ---
 
 ## 1. Overview
