@@ -9,7 +9,7 @@ mechanisms: []
 interaction_model: 
 source_photos: []
 date_processed: 
-schema_version: "0.1"
+schema_version: "0.2"
 ---
 
 ## 1. Overview
@@ -52,7 +52,11 @@ schema_version: "0.1"
 
 
 
-## 11. Source References
+## 11. Supplementary Material
+
+None — no supplementary reference material for this game.
+
+## 12. Source References
 
 | Section | Source photo(s) |
 |---|---|
@@ -66,3 +70,4 @@ schema_version: "0.1"
 | Special Rules / Variants | |
 | Edge Cases / FAQ | |
 | Glossary | |
+| Supplementary Material | |
